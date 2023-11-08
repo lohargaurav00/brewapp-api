@@ -33,6 +33,12 @@ These instructions will get you a copy of the project up and running on your loc
     ```
     Note: The development server should start on port `8000` or `5000`.
 
+## Considerations
+
+- This API is designed to be deployed on Vercel. The `api` & `public` folder is specifically for Vercel deployment considerations.
+- For local development, the server will start on port 8000 or 5000 from `src/index.ts`.
+- Please ensure that you have set up the correct environment variables in the `.env` file before starting the server.
+
 ## API Endpoints
 
 The server provides the following endpoints:
