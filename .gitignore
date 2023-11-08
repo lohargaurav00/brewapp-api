@@ -6,9 +6,6 @@
 .pnp.js
 
 
-# production
-/dist
-
 # misc
 .env
 .env.local
