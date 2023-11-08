@@ -4,11 +4,11 @@
   "description": "This is a node server with typescript and express",
   "main": "index.js",
   "scripts": {
+    "vercel-build": "echo hello",
     "dev": "nodemon src/index.ts",
     "start": "ts-node -r tsconfig-paths/register src/index.ts",
     "build": "tsc && tsc-alias",
-    "serve": "node dist/index.js",
-    "vercel-build": "echo hello"
+    "serve": "node dist/index.js"
   },
   "keywords": [],
   "author": "",
