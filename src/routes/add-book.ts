@@ -40,7 +40,7 @@ router.post(
         title,
         author,
         summary,
-        date: new Date(),
+        created_at: new Date(),
       });
       book
         .save()

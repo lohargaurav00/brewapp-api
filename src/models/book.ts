@@ -13,10 +13,15 @@ const AddBookSchema = new mongoose.Schema({
         type: String,
         required: true,
     },
-    date: {
+    created_at: {
         type: Date,
         default: Date.now,
         required: true,
+    },
+    updated_at: {
+        type: Date,
+        default: "-",
+        required: false,
     },
 });
 
