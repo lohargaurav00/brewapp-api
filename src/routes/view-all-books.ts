@@ -4,7 +4,7 @@ import Book from "../models/book";
 
 const router = Router();
 
-// @route   POST api/view-all-books
+// @route   GET api/view-all-books
 // @desc    List all books
 // @access  Public
 
