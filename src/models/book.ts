@@ -20,7 +20,7 @@ const AddBookSchema = new mongoose.Schema({
     },
     updated_at: {
         type: Date,
-        default: "-",
+        default: Date.now,
         required: false,
     },
 });
