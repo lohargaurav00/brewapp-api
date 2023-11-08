@@ -16,7 +16,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 1. Clone the repository
     ```bash
-    git clone https://github.com/yourusername/brewapp-api.git
+    git clone https://github.com/lohargaurav00/brewapp-api.git
     ```
 
 2. Install NPM packages
