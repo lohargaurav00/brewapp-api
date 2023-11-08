@@ -42,7 +42,7 @@ router.get(
         return res.status(400).json({
           response: "error",
           message: `There are no books in the associated with this ${
-            id ? id : title ? title : author
+            id ? "id: " + id : title ? "title: " +  title : "author: "+ author
           }`,
         });
       }
