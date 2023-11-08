@@ -13,8 +13,8 @@ export default function connectToDb() {
     .catch((err) => {
       console.log("Error connecting to database", err.message);
 
-      // If connection fails, try again after 5 seconds and limit the number of connection attempts to 3
-      if (connectionAttempts < 3) {
+      // If connection fails, try again after 5 seconds and limit the number of connection attempts to 1 
+      if (connectionAttempts < 1) {
         setTimeout(() => {
           console.log("Attempting to reconnect...");
           connectToDb();
